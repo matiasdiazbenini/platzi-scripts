@@ -1,3 +1,3 @@
-module.exports = (a, b) => {
-  return a + b;
-}
+module.exports = (...numbers) => {
+  return numbers.reduce((total, number) => total + number, 0);
+};
