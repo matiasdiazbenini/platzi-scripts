@@ -5,8 +5,6 @@ const app = new Koa();
 const router = new Router();
 const sum = require('./sum');
 
-const sum = require('./sum');
-
 router.get('/add/:a/:b', ctx => {
   const a = Number(ctx.params.a);
   const b = Number(ctx.params.b);
